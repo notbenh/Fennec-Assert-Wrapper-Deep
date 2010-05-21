@@ -1,0 +1,8 @@
+Build.PL
+Changes
+MANIFEST
+README
+lib/Fennec/Assert/Wrapper/Deep.pm
+t/manifest.t
+t/Fennec.t
+t/Fennec/Assert/Wrapper/Deep.pm
