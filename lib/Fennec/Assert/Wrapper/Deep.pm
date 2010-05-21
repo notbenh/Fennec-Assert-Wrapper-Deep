@@ -19,7 +19,13 @@ Version 0.01
 
 our $VERSION = '0.01';
 
-for my $name ( qw{eq_deeply cmp_deeply cmp_set cmp_bag cmp_methods useclass noclass set bag subbagof superbagof subsetof supersetof superhashof subhashof bool str arraylength Isa ignore methods regexprefonly regexpmatches num regexponly scalref reftype hashkeysonly blessed array re hash regexpref hash_each shallow array_each code arrayelementsonly arraylengthonly all scalarrefonly listmethods any hashkeys isa} ) {
+#for my $name ( qw{eq_deeply cmp_deeply cmp_set cmp_bag cmp_methods useclass noclass set bag subbagof superbagof subsetof supersetof superhashof subhashof bool str arraylength Isa ignore methods regexprefonly regexpmatches num regexponly scalref reftype hashkeysonly blessed array re hash regexpref hash_each shallow array_each code arrayelementsonly arraylengthonly all scalarrefonly listmethods any hashkeys isa} ) {
+for my $name ( qw{ eq_deeply
+                   cmp_deeply
+                   cmp_set
+                   cmp_bag
+                   cmp_methods
+                 } ) {
     no strict 'refs';
     next unless Test::Deep->can( $name );
     tester( $name => tb_wrapper( \&{ 'Test::Deep::' . $name }));
@@ -31,28 +37,6 @@ for my $name ( qw{eq_deeply cmp_deeply cmp_set cmp_bag cmp_methods useclass nocl
 
 =over 4
 
-=item Isa()
-
-=item all()
-
-=item any()
-
-=item array()
-
-=item array_each()
-
-=item arrayelementsonly()
-
-=item arraylength()
-
-=item arraylengthonly()
-
-=item bag()
-
-=item blessed()
-
-=item bool()
-
 =item cmp_bag()
 
 =item cmp_deeply()
@@ -61,65 +45,7 @@ for my $name ( qw{eq_deeply cmp_deeply cmp_set cmp_bag cmp_methods useclass nocl
 
 =item cmp_set()
 
-=item code()
-
 =item eq_deeply()
-
-=item hash()
-
-=item hash_each()
-
-=item hashkeys()
-
-=item hashkeysonly()
-
-=item ignore()
-
-=item isa()
-
-=item listmethods()
-
-=item methods()
-
-=item noclass()
-
-=item num()
-
-=item re()
-
-=item reftype()
-
-=item regexpmatches()
-
-=item regexponly()
-
-=item regexpref()
-
-=item regexprefonly()
-
-=item scalarrefonly()
-
-=item scalref()
-
-=item set()
-
-=item shallow()
-
-=item str()
-
-=item subbagof()
-
-=item subhashof()
-
-=item subsetof()
-
-=item superbagof()
-
-=item superhashof()
-
-=item supersetof()
-
-=item useclass()
 
 =back
 

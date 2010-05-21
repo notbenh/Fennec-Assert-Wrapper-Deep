@@ -12,45 +12,5 @@ tests load {
                       cmp_set
                       cmp_bag
                       cmp_methods
-                      useclass
-                      noclass
-                      set
-                      bag
-                      subbagof
-                      superbagof
-                      subsetof
-                      supersetof
-                      superhashof
-                      subhashof
-                      bool
-                      str
-                      arraylength
-                      Isa
-                      ignore
-                      methods
-                      regexprefonly
-                      regexpmatches
-                      num
-                      regexponly
-                      scalref
-                      reftype
-                      hashkeysonly
-                      blessed
-                      array
-                      re
-                      hash
-                      regexpref
-                      hash_each
-                      shallow
-                      array_each
-                      code
-                      arrayelementsonly
-                      arraylengthonly
-                      all
-                      scalarrefonly
-                      listmethods
-                      any
-                      hashkeys
-                      isa
                      });
 };
