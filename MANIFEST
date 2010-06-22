@@ -6,3 +6,4 @@ lib/Fennec/Assert/Wrapper/Deep.pm
 t/manifest.t
 t/Fennec.t
 t/Fennec/Assert/Wrapper/Deep.pm
+ignore.txt
