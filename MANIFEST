@@ -7,3 +7,5 @@ t/manifest.t
 t/Fennec.t
 t/Fennec/Assert/Wrapper/Deep.pm
 ignore.txt
+Makefile.PL
+META.yml
