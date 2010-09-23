@@ -7,7 +7,7 @@ use Fennec::Assert;
 use Fennec::Output::Result;
 require Test::Deep;
 
-# ABSTRACT: A moose class that abstracts Net::OAuth for you
+# ABSTRACT: Fennec wrapper around Test::Deep
 
 for my $name ( qw{ eq_deeply
                    cmp_deeply
