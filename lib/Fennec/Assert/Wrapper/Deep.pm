@@ -7,19 +7,8 @@ use Fennec::Assert;
 use Fennec::Output::Result;
 require Test::Deep;
 
-=head1 NAME
+# ABSTRACT: A moose class that abstracts Net::OAuth for you
 
-Fennec::Assert::Wrapper::Deep - Fennec wrapper for L<Test::Deep>
-
-=head1 VERSION
-
-Version 0.02
-
-=cut
-
-our $VERSION = '0.02';
-
-#for my $name ( qw{eq_deeply cmp_deeply cmp_set cmp_bag cmp_methods useclass noclass set bag subbagof superbagof subsetof supersetof superhashof subhashof bool str arraylength Isa ignore methods regexprefonly regexpmatches num regexponly scalref reftype hashkeysonly blessed array re hash regexpref hash_each shallow array_each code arrayelementsonly arraylengthonly all scalarrefonly listmethods any hashkeys isa} ) {
 for my $name ( qw{ eq_deeply
                    cmp_deeply
                    cmp_set
